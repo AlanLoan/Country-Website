@@ -1,0 +1,52 @@
+body{
+    background-image: url(images/PictureGerman1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 100%;
+}
+
+h1{
+    text-align: center;
+    
+}
+p{
+    font-size: 30px;
+    background-color: white;
+}
+img{
+    width: 25%;
+}
+
+.navi{
+    padding-left: 0;
+    list-style: none;
+    width: 50%;
+    margin: auto ;
+    text-align: center;
+    background-image: url(images/PictureGerman2.jpg);
+    background-position: 50% 100%;
+    background-size: 94% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.navi li{
+    display: inline-block;
+    border: 3px outset;
+}
+
+.navi li a{
+    
+    color: black;
+    font-size: 50px;
+    
+}
+
+.navi li a:hover{
+    background-image:url(images/GermanFlag.png);
+    background-position: 30% 48%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
