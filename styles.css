@@ -7,13 +7,24 @@ body{
 }
 
 h1{
-    text-align: center;
-    
+    text-align: center;   
+    background-color: white;
+}
+
+h2{
+    color: black;
+    background-color: white;
+    margin: auto;
 }
 p{
     font-size: 30px;
     background-color: white;
 }
+.funFacts{
+    background-color: white;
+    margin: auto;
+}
+
 img{
     width: 25%;
 }
@@ -22,11 +33,9 @@ img{
     padding-left: 0;
     list-style: none;
     width: 50%;
-    margin: auto ;
+    margin: auto;
     text-align: center;
-    background-image: url(images/PictureGerman2.jpg);
-    background-position: 50% 100%;
-    background-size: 94% 100%;
+    background-position: center;
     background-repeat: no-repeat;
 
 }
